@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<AppMenu /> renders correctly 1`] = `
+<nav
+  className="app-menu"
+>
+  <a
+    href="/"
+    onClick={[Function]}
+  >
+    User list
+  </a>
+  <a
+    href="/settings"
+    onClick={[Function]}
+  >
+    Settings
+  </a>
+</nav>
+`;

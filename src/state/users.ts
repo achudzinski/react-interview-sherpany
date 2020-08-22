@@ -32,7 +32,7 @@ export const usersReducer = (state: UserType[] = [], action: UsersActions) => {
         return state.concat(action.payload);
     }
 
-    if (action.type == CLEAR_USERS) {
+    if (action.type === CLEAR_USERS) {
         return [];
     }
 

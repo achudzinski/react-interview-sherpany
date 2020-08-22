@@ -30,7 +30,7 @@ export const seedReducer = (state: string | null = null, action: SeedActions) =>
         return action.payload;
     }
 
-    if (action.type == CLEAR_SEED) {
+    if (action.type === CLEAR_SEED) {
         return "";
     }
 

@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Switch /> renders correctly in OFF state 1`] = `
+<div
+  className="switch switch--off"
+  onClick={[Function]}
+>
+  <div
+    className="switch--circle"
+  />
+</div>
+`;
+
+exports[`<Switch /> renders correctly in ON state 1`] = `
+<div
+  className="switch switch--on"
+  onClick={[Function]}
+>
+  <div
+    className="switch--circle"
+  />
+</div>
+`;

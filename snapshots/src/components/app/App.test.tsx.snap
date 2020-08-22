@@ -16,6 +16,12 @@ exports[`<App /> renders correctly 1`] = `
       >
         User list
       </a>
+      <a
+        href="/settings"
+        onClick={[Function]}
+      >
+        Settings
+      </a>
     </nav>
   </div>
   <div>

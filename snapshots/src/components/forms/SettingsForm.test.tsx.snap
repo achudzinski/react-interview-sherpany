@@ -1,0 +1,100 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SettingsForm /> renders correctly with errors 1`] = `
+<div
+  className="settings-form"
+>
+  <div
+    className="error"
+  >
+    Test error
+  </div>
+  <div
+    className="settings-form--group"
+  >
+    <div
+      className="field-label"
+    >
+      Swiss
+    </div>
+    <div
+      className="switch switch--off"
+      onClick={[Function]}
+    >
+      <div
+        className="switch--circle"
+      />
+    </div>
+  </div>
+  <div
+    className="settings-form--group"
+  >
+    <div
+      className="field-label"
+    >
+      British
+    </div>
+    <div
+      className="switch switch--on"
+      onClick={[Function]}
+    >
+      <div
+        className="switch--circle"
+      />
+    </div>
+  </div>
+  <button
+    className="button"
+    onClick={[Function]}
+  >
+    Save settings
+  </button>
+</div>
+`;
+
+exports[`<SettingsForm /> renders correctly without errors 1`] = `
+<div
+  className="settings-form"
+>
+  <div
+    className="settings-form--group"
+  >
+    <div
+      className="field-label"
+    >
+      Swiss
+    </div>
+    <div
+      className="switch switch--off"
+      onClick={[Function]}
+    >
+      <div
+        className="switch--circle"
+      />
+    </div>
+  </div>
+  <div
+    className="settings-form--group"
+  >
+    <div
+      className="field-label"
+    >
+      British
+    </div>
+    <div
+      className="switch switch--on"
+      onClick={[Function]}
+    >
+      <div
+        className="switch--circle"
+      />
+    </div>
+  </div>
+  <button
+    className="button"
+    onClick={[Function]}
+  >
+    Save settings
+  </button>
+</div>
+`;

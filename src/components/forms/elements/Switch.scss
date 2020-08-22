@@ -1,0 +1,51 @@
+@import "../../../style/settings";
+
+.switch {
+    width: 34px;
+
+    border-radius: 12px;
+    border: 0;
+    min-width: 42px;
+    height: 22px;
+    position: relative;
+    cursor: pointer;
+    -webkit-transition: all .2s ease;
+    transition: all .2s ease;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+
+    &--off {
+        background: #e5e5e5;;
+    }
+
+    &--on {
+        background: #8d67ee;
+
+        .switch--circle {
+            margin-left: calc(100% - 22px);
+        }
+    }
+
+    &--circle {
+        display: block;
+        width: 18px;
+        height: 18px;
+        position: absolute;
+        background: #fff;
+        left: 2px;
+        top: 2px;
+        border-radius: 50%;
+        -webkit-transition: all .25s ease;
+        transition: all .25s ease;
+        -webkit-box-shadow: 0 0 4px 0 rgba(0,0,0,.1);
+        box-shadow: 0 0 4px 0 rgba(0,0,0,.1);
+    }
+
+}

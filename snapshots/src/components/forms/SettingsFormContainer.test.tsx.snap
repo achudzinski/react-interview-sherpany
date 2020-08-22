@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SettingsFormContainer /> renders correctly 1`] = `
+<div
+  className="settings-form"
+>
+  
+  <button
+    className="button"
+    onClick={[Function]}
+  >
+    Save settings
+  </button>
+</div>
+`;
+
+exports[`<SettingsFormContainer /> saves selected nationalities and triggers onSettingsSaved event 1`] = `ReactWrapper {}`;
+
+exports[`<SettingsFormContainer /> saves selected nationalities and triggers onSettingsSaved event 2`] = `ReactWrapper {}`;
+
+exports[`<SettingsFormContainer /> validates if nationlity has been chosen 1`] = `ReactWrapper {}`;
+
+exports[`<SettingsFormContainer /> validates if nationlity has been chosen 2`] = `ReactWrapper {}`;

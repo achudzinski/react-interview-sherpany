@@ -1,5 +1,4 @@
 import * as React from "react";
-import "./UserListItem.scss";
 import {useDispatch, useSelector} from "react-redux";
 import {StateType} from "../../../state/StateType";
 import {useState} from "react";
@@ -10,6 +9,7 @@ import {UserModalWindow} from "./UserModalWindow";
 import {setSeed} from "../../../state/seed";
 import {selectUser} from "../../../state/selectedUser";
 import {UserList} from "./UserList";
+import "./UserListItem.scss";
 
 export interface UserListContainerProps {
     numberOfItemsPerPage: number,
@@ -54,7 +54,7 @@ export const UserListContainer = ({numberOfItemsPerPage, maxNumberOfItems}: User
 
             dispatch(loadUsers(result.users));
 
-            if (page == 1) {
+            if (page ===     1) {
                 dispatch(setSeed(result.seed));
             }
 
