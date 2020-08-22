@@ -1,0 +1,27 @@
+@import "../../../style/settings";
+
+.user-list-item {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 1rem;
+    border: 1px solid #000;
+    padding: 0.5rem;
+    overflow: hidden;
+    cursor: pointer;
+
+    @include forMedium {
+        width: 49%;
+        margin-left: 0.5%;
+        margin-right: 0.5%;
+    }
+
+    @include forLarge {
+        width: 24%;
+        margin-left: 0.5%;
+        margin-right: 0.5%;
+    }
+
+    > div {
+        margin-bottom: 0.5rem;
+    }
+}

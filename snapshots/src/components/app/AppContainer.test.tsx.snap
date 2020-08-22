@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<AppContainer /> renders correctly 1`] = `
+<div
+  className="app"
+>
+  <div
+    className="app-header"
+  >
+    <nav
+      className="app-menu"
+    >
+      <a
+        href="/"
+        onClick={[Function]}
+      >
+        User list
+      </a>
+    </nav>
+  </div>
+  <div>
+    <div
+      className="user-list"
+    >
+      <div>
+        <div
+          className="grid-list"
+        />
+        <div
+          className="spinner"
+        >
+          Loading
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

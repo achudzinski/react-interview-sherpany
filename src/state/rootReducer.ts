@@ -1,2 +1,8 @@
+import {combineReducers} from "redux";
+import {usersReducer} from "./users";
+import {seedReducer} from "./seed";
 
-export const rootReducer = (state: any, action: any) => state;
+export const rootReducer = combineReducers({
+    seed: seedReducer,
+    users: usersReducer,
+})

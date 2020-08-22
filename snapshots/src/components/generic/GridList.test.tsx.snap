@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<GridList /> renders correctly 1`] = `
+<div
+  className="grid-list"
+>
+  <div>
+    A
+  </div>
+  <div>
+    B
+  </div>
+  <div>
+    C
+  </div>
+</div>
+`;
