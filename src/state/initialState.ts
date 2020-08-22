@@ -4,6 +4,7 @@ export const getInitialState = ():StateType => {
     return {
         seed: null,
         users: [],
+        selectedUser: null,
     };
 }
 

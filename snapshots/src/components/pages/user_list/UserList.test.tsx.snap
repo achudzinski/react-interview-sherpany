@@ -1,0 +1,200 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<UserList /> renders correctly 1`] = `
+<div
+  className="user-list"
+>
+  <div>
+    <div
+      className="grid-list"
+    >
+      <div
+        className="user-list-item"
+        onClick={[Function]}
+      >
+        <div
+          className="user-avatar"
+        >
+          <img
+            alt="avatar"
+            src="a.jpg"
+          />
+        </div>
+        <div>
+          te
+           
+          st
+        </div>
+        <div>
+          test
+        </div>
+        <div>
+          test@test.com
+        </div>
+      </div>
+      <div
+        className="user-list-item"
+        onClick={[Function]}
+      >
+        <div
+          className="user-avatar"
+        >
+          <img
+            alt="avatar"
+            src="b.jpg"
+          />
+        </div>
+        <div>
+          te2
+           
+          st2
+        </div>
+        <div>
+          test2
+        </div>
+        <div>
+          test2@test.com
+        </div>
+      </div>
+    </div>
+    <div
+      className="spinner"
+    >
+      Loading
+      
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<UserList /> renders correctly with end of list alert 1`] = `
+<div
+  className="user-list"
+>
+  <div>
+    <div
+      className="grid-list"
+    >
+      <div
+        className="user-list-item"
+        onClick={[Function]}
+      >
+        <div
+          className="user-avatar"
+        >
+          <img
+            alt="avatar"
+            src="a.jpg"
+          />
+        </div>
+        <div>
+          te
+           
+          st
+        </div>
+        <div>
+          test
+        </div>
+        <div>
+          test@test.com
+        </div>
+      </div>
+      <div
+        className="user-list-item"
+        onClick={[Function]}
+      >
+        <div
+          className="user-avatar"
+        >
+          <img
+            alt="avatar"
+            src="b.jpg"
+          />
+        </div>
+        <div>
+          te2
+           
+          st2
+        </div>
+        <div>
+          test2
+        </div>
+        <div>
+          test2@test.com
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="user-list--end"
+  >
+    end of users catalog
+  </div>
+</div>
+`;
+
+exports[`<UserList /> renders correctly with loading error alert 1`] = `
+<div
+  className="user-list"
+>
+  <div>
+    <div
+      className="grid-list"
+    >
+      <div
+        className="user-list-item"
+        onClick={[Function]}
+      >
+        <div
+          className="user-avatar"
+        >
+          <img
+            alt="avatar"
+            src="a.jpg"
+          />
+        </div>
+        <div>
+          te
+           
+          st
+        </div>
+        <div>
+          test
+        </div>
+        <div>
+          test@test.com
+        </div>
+      </div>
+      <div
+        className="user-list-item"
+        onClick={[Function]}
+      >
+        <div
+          className="user-avatar"
+        >
+          <img
+            alt="avatar"
+            src="b.jpg"
+          />
+        </div>
+        <div>
+          te2
+           
+          st2
+        </div>
+        <div>
+          test2
+        </div>
+        <div>
+          test2@test.com
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="user-list--error"
+  >
+    loading error
+  </div>
+</div>
+`;

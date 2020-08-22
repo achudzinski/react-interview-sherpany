@@ -1,0 +1,202 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<UserListContainer /> renders correctly with selected user 1`] = `
+Array [
+  <div
+    className="user-list"
+  >
+    <div>
+      <div
+        className="grid-list"
+      >
+        <div
+          className="user-list-item"
+          onClick={[Function]}
+        >
+          <div
+            className="user-avatar"
+          >
+            <img
+              alt="avatar"
+              src="a.jpg"
+            />
+          </div>
+          <div>
+            te
+             
+            st
+          </div>
+          <div>
+            test
+          </div>
+          <div>
+            test@test.com
+          </div>
+        </div>
+        <div
+          className="user-list-item"
+          onClick={[Function]}
+        >
+          <div
+            className="user-avatar"
+          >
+            <img
+              alt="avatar"
+              src="b.jpg"
+            />
+          </div>
+          <div>
+            te2
+             
+            st2
+          </div>
+          <div>
+            test2
+          </div>
+          <div>
+            test2@test.com
+          </div>
+        </div>
+      </div>
+      <div
+        className="spinner"
+      >
+        Loading
+        
+      </div>
+    </div>
+  </div>,
+  <div
+    className="modal-window user-modal-window"
+    onClick={[Function]}
+  >
+    <div
+      className="modal-window--content"
+      onClick={[Function]}
+    >
+      <div
+        className="modal-window--close"
+        onClick={[Function]}
+      >
+        <img
+          alt="Close"
+          className="close-icon"
+          src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABmJLR0QA/wD/AP+gvaeTAAABmklEQVRoge2aTU7DMBCFP7gDUVuOlB6BC8C6lAPAtcoFYEUX3IOwgFVYZCIguJFn/BML+UlWKnWcvq9J7RdNoaqqyqotcADegX7h0YmXVgvxUID5U+PeF2IrEz6AHbDWfgsJtAZuGTz1eF6ZRynepfNl1p7B28GnuJPiVUpHRq0YvL35FI/3Yqly+jtfwEgSVZDSVEFKUwyQa6AJmN/IOaJLs/zeSO0RG0wjc3s5l4+8/WlALoAXqX9FF2emc3034CQgLkM+MFYIlT/Lzq6BCYFQ+bNGFB+YUAiVv5CsNQcTA0LlLzQ0umBiQaj8xUi/P5fV4+R1yJ4DmUHg91WIcSVGFRHjz3J+WL21RK4fdkgCMPuLufyuZt6zwmTfEF0/7BgwWSPK3OoUCpMtNPossSEwWWK8Zp+wwiQB+TcPVpD/UTd7REmlIiJKMlWQ0lRBSpMLpJNjCS23qS7l+KfR4wJ5kuNVMjt2jZ6efYpbvpuhe2CTyJRGG+AO+ETRDIWhBXyqPbz08G5Pj2oZuqdjc3TJYf7DQFVV1aAvuftbeCQwpVAAAAAASUVORK5CYII="
+        />
+      </div>
+      <h1>
+        te2
+         
+        st2
+      </h1>
+      <div
+        className="user-modal-window--label"
+      >
+        Location:
+      </div>
+      <div
+        className="user-modal-window--value"
+      >
+        def
+         
+        123
+        <br />
+        Manchestr
+        <br />
+        abc
+        <br />
+        M1M2
+      </div>
+      <div
+        className="user-modal-window--label"
+      >
+        Phone:
+      </div>
+      <div
+        className="user-modal-window--value"
+      >
+        +44 111 111 112
+        <br />
+      </div>
+      <div
+        className="user-modal-window--label"
+      >
+        Cellphone:
+      </div>
+      <div
+        className="user-modal-window--value"
+      >
+        +44 000 000 001
+        <br />
+      </div>
+    </div>
+  </div>,
+]
+`;
+
+exports[`<UserListContainer /> renders correctly without selected user 1`] = `
+<div
+  className="user-list"
+>
+  <div>
+    <div
+      className="grid-list"
+    >
+      <div
+        className="user-list-item"
+        onClick={[Function]}
+      >
+        <div
+          className="user-avatar"
+        >
+          <img
+            alt="avatar"
+            src="a.jpg"
+          />
+        </div>
+        <div>
+          te
+           
+          st
+        </div>
+        <div>
+          test
+        </div>
+        <div>
+          test@test.com
+        </div>
+      </div>
+      <div
+        className="user-list-item"
+        onClick={[Function]}
+      >
+        <div
+          className="user-avatar"
+        >
+          <img
+            alt="avatar"
+            src="b.jpg"
+          />
+        </div>
+        <div>
+          te2
+           
+          st2
+        </div>
+        <div>
+          test2
+        </div>
+        <div>
+          test2@test.com
+        </div>
+      </div>
+    </div>
+    <div
+      className="spinner"
+    >
+      Loading
+      
+    </div>
+  </div>
+</div>
+`;

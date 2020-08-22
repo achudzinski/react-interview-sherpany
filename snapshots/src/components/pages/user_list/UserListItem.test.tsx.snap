@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<UserListItem /> renders correctly 1`] = `
+<div
+  className="user-list-item"
+  onClick={[Function]}
+>
+  <div
+    className="user-avatar"
+  >
+    <img
+      alt="avatar"
+      src="a.jpg"
+    />
+  </div>
+  <div>
+    te
+     
+    st
+  </div>
+  <div>
+    test
+  </div>
+  <div>
+    test@test.com
+  </div>
+</div>
+`;
