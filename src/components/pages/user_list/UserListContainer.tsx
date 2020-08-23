@@ -55,7 +55,7 @@ export const UserListContainer = ({numberOfItemsPerPage, maxNumberOfItems}: User
 
             dispatch(loadUsers(result.users));
 
-            if (page ===     1) {
+            if (page === 1) {
                 dispatch(setSeed(result.seed));
             }
 
@@ -78,7 +78,7 @@ export const UserListContainer = ({numberOfItemsPerPage, maxNumberOfItems}: User
         <>
             <SearchFormContainer/>
             <UserList
-                users={users.filter(u => searchTerm === "" || (u.firstName + u.lastName).toLocaleLowerCase().indexOf(searchTerm.toLocaleLowerCase()) != -1 )}
+                users={users.filter(u => searchTerm === "" || (u.firstName + u.lastName).toLocaleLowerCase().indexOf(searchTerm.toLocaleLowerCase()) !== -1 )}
                 loadingError={loadingError}
                 endOfList={users.length >= maxNumberOfItems}
                 loadMoreDisabled={searchTerm !== ""}

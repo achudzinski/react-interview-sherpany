@@ -20,7 +20,7 @@ export const SearchFormContainer = () => {
         <div className={"search-form"}>
             <FieldLabel>Search by first and last name:</FieldLabel>
             <TextField onChange={handleOnChange} value={searchTerm} />
-            {searchTerm != "" && <div onClick={() => handleOnChange("")} className={"search-form--close"}><CloseIcon/></div>}
+            {searchTerm !== "" && <div onClick={() => handleOnChange("")} className={"search-form--close"}><CloseIcon/></div>}
         </div>
     );
 };
