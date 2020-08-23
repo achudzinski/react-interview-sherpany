@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TextField /> renders correctly 1`] = `
+<div
+  className="text-field"
+>
+  <input
+    className="text-field--input"
+    onChange={[Function]}
+    type="text"
+    value="Abc"
+  />
+</div>
+`;

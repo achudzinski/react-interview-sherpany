@@ -9,7 +9,8 @@ describe("getInitialState", () => {
             seed: null,
             users: [],
             selectedUser: null,
-            selectedNationalities: ["CH", "FR"]
+            selectedNationalities: ["CH", "FR"],
+            searchTerm: "",
         });
 
         spy.mockReset();
@@ -23,7 +24,8 @@ describe("getInitialState", () => {
             seed: null,
             users: [],
             selectedUser: null,
-            selectedNationalities: []
+            selectedNationalities: [],
+            searchTerm: "",
         });
 
         spy.mockReset();

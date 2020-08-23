@@ -9,7 +9,7 @@ import {UserModalWindow} from "./UserModalWindow";
 import {setSeed} from "../../../state/seed";
 import {selectUser} from "../../../state/selectedUser";
 import {UserList} from "./UserList";
-import "./UserListItem.scss";
+import {SearchFormContainer} from "../../forms/SearchFormContainer";
 
 export interface UserListContainerProps {
     numberOfItemsPerPage: number,
@@ -20,6 +20,7 @@ export const UserListContainer = ({numberOfItemsPerPage, maxNumberOfItems}: User
     const seed = useSelector((state: StateType) => state.seed);
     const users = useSelector((state: StateType) => state.users);
     const selectedUser = useSelector((state: StateType) => state.selectedUser);
+    const searchTerm = useSelector((state:StateType) => state.searchTerm);
     const dispatch = useDispatch();
 
     const [usersPreloaded, setUsersPreloaded] = useState<UserType[]>([]);
@@ -75,10 +76,12 @@ export const UserListContainer = ({numberOfItemsPerPage, maxNumberOfItems}: User
 
     return (
         <>
+            <SearchFormContainer/>
             <UserList
-                users={users}
+                users={users.filter(u => searchTerm === "" || (u.firstName + u.lastName).toLocaleLowerCase().indexOf(searchTerm.toLocaleLowerCase()) != -1 )}
                 loadingError={loadingError}
                 endOfList={users.length >= maxNumberOfItems}
+                loadMoreDisabled={searchTerm !== ""}
                 onLoadMore={handleOnLoadMore}
                 onUserSelected={handleOnUserSelected}
             />

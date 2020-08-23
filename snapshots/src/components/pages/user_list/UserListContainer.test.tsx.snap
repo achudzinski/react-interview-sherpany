@@ -3,6 +3,25 @@
 exports[`<UserListContainer /> renders correctly with selected user 1`] = `
 Array [
   <div
+    className="search-form"
+  >
+    <div
+      className="field-label"
+    >
+      Search by first and last name:
+    </div>
+    <div
+      className="text-field"
+    >
+      <input
+        className="text-field--input"
+        onChange={[Function]}
+        type="text"
+        value=""
+      />
+    </div>
+  </div>,
+  <div
     className="user-list"
   >
     <div>
@@ -135,68 +154,89 @@ Array [
 `;
 
 exports[`<UserListContainer /> renders correctly without selected user 1`] = `
-<div
-  className="user-list"
->
-  <div>
+Array [
+  <div
+    className="search-form"
+  >
     <div
-      className="grid-list"
+      className="field-label"
     >
+      Search by first and last name:
+    </div>
+    <div
+      className="text-field"
+    >
+      <input
+        className="text-field--input"
+        onChange={[Function]}
+        type="text"
+        value=""
+      />
+    </div>
+  </div>,
+  <div
+    className="user-list"
+  >
+    <div>
       <div
-        className="user-list-item"
-        onClick={[Function]}
+        className="grid-list"
       >
         <div
-          className="user-avatar"
+          className="user-list-item"
+          onClick={[Function]}
         >
-          <img
-            alt="avatar"
-            src="a.jpg"
-          />
+          <div
+            className="user-avatar"
+          >
+            <img
+              alt="avatar"
+              src="a.jpg"
+            />
+          </div>
+          <div>
+            te
+             
+            st
+          </div>
+          <div>
+            test
+          </div>
+          <div>
+            test@test.com
+          </div>
         </div>
-        <div>
-          te
-           
-          st
-        </div>
-        <div>
-          test
-        </div>
-        <div>
-          test@test.com
+        <div
+          className="user-list-item"
+          onClick={[Function]}
+        >
+          <div
+            className="user-avatar"
+          >
+            <img
+              alt="avatar"
+              src="b.jpg"
+            />
+          </div>
+          <div>
+            te2
+             
+            st2
+          </div>
+          <div>
+            test2
+          </div>
+          <div>
+            test2@test.com
+          </div>
         </div>
       </div>
       <div
-        className="user-list-item"
-        onClick={[Function]}
+        className="spinner"
       >
-        <div
-          className="user-avatar"
-        >
-          <img
-            alt="avatar"
-            src="b.jpg"
-          />
-        </div>
-        <div>
-          te2
-           
-          st2
-        </div>
-        <div>
-          test2
-        </div>
-        <div>
-          test2@test.com
-        </div>
+        Loading
+        
       </div>
     </div>
-    <div
-      className="spinner"
-    >
-      Loading
-      
-    </div>
-  </div>
-</div>
+  </div>,
+]
 `;

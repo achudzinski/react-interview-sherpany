@@ -17,7 +17,6 @@ export const SettingsPage = () => {
                 ? <Redirect to={getUrlToUserList()}/>
                 : <SettingsFormContainer onSettingsSaved={handleOnSettingsSaved}/>
             }
-
         </div>
     );
 };

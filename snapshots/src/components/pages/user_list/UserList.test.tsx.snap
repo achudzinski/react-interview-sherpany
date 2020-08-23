@@ -126,7 +126,7 @@ exports[`<UserList /> renders correctly with end of list alert 1`] = `
     </div>
   </div>
   <div
-    className="user-list--end"
+    className="user-list-error-alert"
   >
     end of users catalog
   </div>
@@ -192,7 +192,7 @@ exports[`<UserList /> renders correctly with loading error alert 1`] = `
     </div>
   </div>
   <div
-    className="user-list--error"
+    className="user-list-error-alert"
   >
     loading error
   </div>

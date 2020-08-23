@@ -8,6 +8,9 @@ export interface SwitchProps {
     onChange: () => void,
 }
 
+/**
+ * Switch with two states - on/off and animation when state is changed.
+ */
 export const Switch = ({isOn, onChange}:SwitchProps) => {
     return (
         <div className={classNames(["switch", isOn ? "switch--on" : "switch--off"])} onClick={onChange} >

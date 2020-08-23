@@ -11,6 +11,7 @@ export const App = () => {
     return (
         <div className="app">
             <AppHeader />
+
             <Switch>
                 <Route exact={true} path={routeToSettingsPage}>
                     <SettingsPage/>

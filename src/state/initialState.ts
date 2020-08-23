@@ -7,6 +7,7 @@ export const getInitialState = ():StateType => {
         users: [],
         selectedUser: null,
         selectedNationalities: getPersistedNationalities(),
+        searchTerm: "",
     };
 }
 

@@ -20,3 +20,9 @@ Run command:
 ```npm run test ```
 
 Press `a` to run all tests.
+
+## Build production version
+
+To build production version run command
+
+```npm run build ```

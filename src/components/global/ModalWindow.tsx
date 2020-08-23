@@ -10,6 +10,10 @@ export interface ModalWindowProps {
     className?: string,
     onCloseClick: () => void,
 }
+
+/**
+ * Generic modal window displayed over other content with black, transparent overlay
+ */
 export const ModalWindow = ({children, className, onCloseClick}:ModalWindowProps) => (
     <div className={classNames(["modal-window", className])} onClick={onCloseClick}>
         <div className={"modal-window--content"} onClick={(e) => e.stopPropagation()}>

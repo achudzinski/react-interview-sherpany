@@ -6,6 +6,9 @@ export interface SpinnerProps {
     animationInterval?: number,
 }
 
+/**
+ * The "Loading..." text with animated dots
+ */
 export const Spinner = ({animationInterval = 700}: SpinnerProps) => {
     const [dots, setDots] = useState(0);
 

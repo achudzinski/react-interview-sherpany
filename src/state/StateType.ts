@@ -5,4 +5,5 @@ export interface StateType {
     users: UserType[],
     selectedUser: UserType|null,
     selectedNationalities: string[],
+    searchTerm: string,
 }

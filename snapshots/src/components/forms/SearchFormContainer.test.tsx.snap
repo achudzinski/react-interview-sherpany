@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SearchFormContainer /> clears search term 1`] = `ReactWrapper {}`;
+
+exports[`<SearchFormContainer /> clears search term 2`] = `ReactWrapper {}`;
+
+exports[`<SearchFormContainer /> renders correctly 1`] = `
+<div
+  className="search-form"
+>
+  <div
+    className="field-label"
+  >
+    Search by first and last name:
+  </div>
+  <div
+    className="text-field"
+  >
+    <input
+      className="text-field--input"
+      onChange={[Function]}
+      type="text"
+      value=""
+    />
+  </div>
+</div>
+`;
+
+exports[`<SearchFormContainer /> saves search term 1`] = `ReactWrapper {}`;
+
+exports[`<SearchFormContainer /> saves search term 2`] = `ReactWrapper {}`;
